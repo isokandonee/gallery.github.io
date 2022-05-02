@@ -1,0 +1,94 @@
+body {
+    /* background-image: url(test.jpg); */
+    /* background-size: cover; */
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    position: relative;
+    /* background-color: rgba(224, 214, 214, 0.2); */
+    background-color: rgba(8, 8, 8, 0.1);
+
+    /* opacity: 0.5; */
+}
+
+nav{
+    /* border: 5px solid purple; */
+    text-transform: uppercase;
+}
+
+/* h1{
+    margin: 0;
+} */
+
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.5em;
+    text-shadow: 0.5 0.5;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+#title{
+    margin-right: 60%;
+    color: tomato;
+}
+
+.link{
+    /* background-color: rgba(8, 8, 8, 0.1); */
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #000;
+}
+
+a:after{
+    color: #fff;
+}
+
+.main, .main2{
+    /* border: 5px solid purple; */
+    display: grid;
+    /* grid-template-rows: 1fr 2fr; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.main2{
+    margin-top: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 0.5em #000;
+    transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 0.5em #000;
+}
+
+.footer{
+    margin-top: 15px;
+    /* border: 5px solid purple; */
+    text-align: center;
+    font-size: 1.2em;
+    color: #000;
+    background-color: rgba(8, 8, 8, 0.1);
+}
